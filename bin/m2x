@@ -1,0 +1,7 @@
+#/usr/bin/env coffee
+# m2x
+#
+# © 2014 WoT.io
+#
+
+m2x = require 'opifex.m2x'
