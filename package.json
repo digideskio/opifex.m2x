@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "David Goehrig"
+  },
+  "name": "opifex.m2x",
+  "license": "MIT",
+  "description": "ATT m2x module for WoT.io",
+  "version": "0.0.1",
+  "repository": {
+    "url": "http://github.com/WoTio/opifex.m2x"
+  },
+  "main": "./lib/M2X.coffee",
+  "bin": {
+	"m2x" : "./bin/m2x"
+   },
+  "files": [ ],
+  "dependencies": {
+	"opifex" : "0.1.0",
+	"request" : "2.36.0",
+	"amqp" :  "0.2.0",
+	"m2x": "0.4.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.11.12"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/WoTio/opifex.m2x/issues"
+  },
+  "homepage": "https://github.com/WoTio/opifex.m2x"
+}
