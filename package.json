@@ -5,7 +5,7 @@
   "name": "opifex.m2x",
   "license": "MIT",
   "description": "ATT m2x module for WoT.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "url": "http://github.com/WoTio/opifex.m2x"
   },
