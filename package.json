@@ -5,20 +5,20 @@
   "name": "opifex.m2x",
   "license": "MIT",
   "description": "ATT m2x module for WoT.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "http://github.com/WoTio/opifex.m2x"
   },
   "main": "./lib/M2X.coffee",
   "bin": {
-	"m2x" : "./bin/m2x"
-   },
-  "files": [ ],
+    "m2x": "./bin/m2x"
+  },
+  "files": [],
   "dependencies": {
-	"opifex" : "0.1.0",
-	"request" : "2.36.0",
-	"amqp" :  "0.2.0",
-	"m2x": "0.4.1"
+    "opifex": "0.1.0",
+    "request": "2.36.0",
+    "amqp": "0.2.0",
+    "m2x": "0.4.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
