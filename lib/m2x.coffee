@@ -1,12 +1,11 @@
-# M2X.coffee
+# opifex.m2x
+# http://wot.io
 #
-# © 2014 WoT.io
-#
-# TODO: License text goes here
-#
+# Copyright (c) 2015 wot.io
+# Licensed under the Apache 2.0 license.
 
-config = require(process.env['HOME'] + '/.m2x')
-M2X = (require 'm2x')
+config = require "config"
+M2X = require 'm2x'
 m2x = new M2X(config.api_key)
 
 module.exports = () ->
