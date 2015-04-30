@@ -23,6 +23,7 @@ module.exports = function(grunt) {
 			all: {
 				files: {
 					'lib/m2x.js': 'lib/m2x.coffee',
+					'lib/opifex.js': 'lib/opifex.coffee',
 					'test/m2x.js': 'test/m2x.coffee'
 				}
 			}

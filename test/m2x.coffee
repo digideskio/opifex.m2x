@@ -10,10 +10,10 @@ chai.expect()
 
 context = {}
 args = []
-opifex = require('../lib/m2x').apply context, args
+opifex = require('../lib/opifex').apply context, args
 
-describe 'opifex.m2x adapter', () ->
+describe 'opifex.opifex adapter', () ->
 	it 'opifex should load and be a function', () ->
-		chai.expect(opifex).to.be.a('function')
+		chai.expect(opifex).to.be.a('object')
 	it 'opifex supports handling of arbitrary functions', () ->
 		chai.expect(context["*"]).to.be.a('function')
