@@ -1,43 +1,47 @@
 {
-	"name": "opifex.m2x",
-	"version": "0.0.5",
-	"description": "ATT m2x module for WoT.io",
-	"main": "lib/opifex.coffee",
-	"homepage": "http://wot.io",
-	"bugs": "https://github.com/WoTio/opifexm2x/issues",
-	"author": {
-		"name": "Thomas Poslinski",
-		"email": ""
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/WoTio/opifexm2x"
-	},
-	"licenses": "Apache 2.0",
-	"files": [
-		"lib",
-		"config"
-	],
-	"keywords": [
-		"opifexm2x"  , "opifex"  , "wot.io"  , "adapter"  , "m2x"
-	],
-	"dependencies": {
-		"opifex": ">=0.3.11",
-		"config": "^1.2.0"
-	},
-	"devDependencies": {
-		"grunt-contrib-coffee": "^0.11.1",
-		"grunt-contrib-jshint": "^0.10.0",
-		"grunt-env": "^0.4.1",
-		"grunt-contrib-watch": "^0.6.1",
-		"load-grunt-tasks": "^0.4.0",
-		"grunt-license": "^0.1.5",
-		"time-grunt": "^0.3.1",
-		"grunt-mocha-cli": "^1.9.0",
-		"jshint-stylish": "^0.2.0",
-		"chai": "^1.9.1"
-	},
-	"scripts": {
-		"test": "grunt test"
-	}
+  "name": "opifex.m2x",
+  "version": "0.0.6",
+  "description": "ATT m2x module for WoT.io",
+  "main": "lib/opifex.coffee",
+  "homepage": "http://wot.io",
+  "bugs": "https://github.com/WoTio/opifexm2x/issues",
+  "author": {
+    "name": "Thomas Poslinski",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WoTio/opifexm2x"
+  },
+  "licenses": "Apache 2.0",
+  "files": [
+    "lib",
+    "config"
+  ],
+  "keywords": [
+    "opifexm2x",
+    "opifex",
+    "wot.io",
+    "adapter",
+    "m2x"
+  ],
+  "dependencies": {
+    "opifex": ">=0.3.11",
+    "config": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-env": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-license": "^0.1.5",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0",
+    "chai": "^1.9.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
 }
