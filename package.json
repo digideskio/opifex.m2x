@@ -1,6 +1,6 @@
 {
   "name": "opifex.m2x",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ATT m2x module for WoT.io",
   "main": "lib/opifex.coffee",
   "homepage": "http://wot.io",
