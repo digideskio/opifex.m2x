@@ -35,34 +35,34 @@ The `opifex.m2x` adapter can be configured via the following environment variabl
 
 Message parameter lists correspond to the [M2X API documentation](https://m2x.att.com/developer/documentation/v2/device)
 
-* `[catalog](https://m2x.att.com/developer/documentation/v2/device#List-Search-Public-Devices-Catalog)`
-* `[create](https://m2x.att.com/developer/documentation/v2/device#Create-Device)`
-* `[createTrigger](https://m2x.att.com/developer/documentation/v2/device#Create-Trigger)`
-* `[deleteDevice](https://m2x.att.com/developer/documentation/v2/device#Delete-Device)`
-* `[deleteStream](https://m2x.att.com/developer/documentation/v2/device#Delete-Data-Stream)`
-* `[deleteStreamValues](https://m2x.att.com/developer/documentation/v2/device#Delete-Data-Stream-Values)`
-* `[deleteTrigger](https://m2x.att.com/developer/documentation/v2/device#Delete-Trigger)`
-* `[Devices](https://m2x.att.com/developer/documentation/device)`
-* `[list](https://m2x.att.com/developer/documentation/v2/device#List-Search-Devices)`
-* `[location](https://m2x.att.com/developer/documentation/v2/device#Read-Device-Location)`
-* `[log](https://m2x.att.com/developer/documentation/v2/device#View-Request-Log)`
-* `[postValues](https://m2x.att.com/developer/documentation/v2/device#Post-Data-Stream-Values)`
-* `[sampleStreamValues](https://m2x.att.com/developer/documentation/v2/device#Data-Stream-Sampling)`
-* `[setStreamValue](https://m2x.att.com/developer/documentation/v2/device#Update-Data-Stream-Value)`
-* `[stream](https://m2x.att.com/developer/documentation/v2/device#View-Data-Stream)`
-* `[streams](https://m2x.att.com/developer/documentation/v2/device#List-Data-Streams)`
-* `[streamStats](https://m2x.att.com/developer/documentation/v2/device#Data-Stream-Stats)`
-* `[streamValues](https://m2x.att.com/developer/documentation/v2/device#List-Data-Stream-Values)`
-* `[tags](https://m2x.att.com/developer/documentation/v2/device#List-Device-Tags)`
-* `[testTrigger](https://m2x.att.com/developer/documentation/v2/device#Test-Trigger)`
-* `[trigger](https://m2x.att.com/developer/documentation/v2/device#View-Trigger)`
-* `[triggers](https://m2x.att.com/developer/documentation/v2/device#List-Triggers)`
-* `[update](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Details)`
-* `[updateLocation](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Location)`
-* `[updateStream](https://m2x.att.com/developer/documentation/v2/device#Create-Update-Data-Stream)`
-* `[updateStreams](https://m2x.att.com/developer/documentation/v2/device#Create-Update-Data-Stream)`
-* `[updateTrigger](https://m2x.att.com/developer/documentation/v2/device#Update-Trigger)`
-* `[view](https://m2x.att.com/developer/documentation/v2/device#View-Device-Details)`
+* [catalog](https://m2x.att.com/developer/documentation/v2/device#List-Search-Public-Devices-Catalog)
+* [create](https://m2x.att.com/developer/documentation/v2/device#Create-Device)
+* [createTrigger](https://m2x.att.com/developer/documentation/v2/device#Create-Trigger)
+* [deleteDevice](https://m2x.att.com/developer/documentation/v2/device#Delete-Device)
+* [deleteStream](https://m2x.att.com/developer/documentation/v2/device#Delete-Data-Stream)
+* [deleteStreamValues](https://m2x.att.com/developer/documentation/v2/device#Delete-Data-Stream-Values)
+* [deleteTrigger](https://m2x.att.com/developer/documentation/v2/device#Delete-Trigger)
+* [Devices](https://m2x.att.com/developer/documentation/device)
+* [list](https://m2x.att.com/developer/documentation/v2/device#List-Search-Devices)
+* [location](https://m2x.att.com/developer/documentation/v2/device#Read-Device-Location)
+* [log](https://m2x.att.com/developer/documentation/v2/device#View-Request-Log)
+* [postValues](https://m2x.att.com/developer/documentation/v2/device#Post-Data-Stream-Values)
+* [sampleStreamValues](https://m2x.att.com/developer/documentation/v2/device#Data-Stream-Sampling)
+* [setStreamValue](https://m2x.att.com/developer/documentation/v2/device#Update-Data-Stream-Value)
+* [stream](https://m2x.att.com/developer/documentation/v2/device#View-Data-Stream)
+* [streams](https://m2x.att.com/developer/documentation/v2/device#List-Data-Streams)
+* [streamStats](https://m2x.att.com/developer/documentation/v2/device#Data-Stream-Stats)
+* [streamValues](https://m2x.att.com/developer/documentation/v2/device#List-Data-Stream-Values)
+* [tags](https://m2x.att.com/developer/documentation/v2/device#List-Device-Tags)
+* [testTrigger](https://m2x.att.com/developer/documentation/v2/device#Test-Trigger)
+* [trigger](https://m2x.att.com/developer/documentation/v2/device#View-Trigger)
+* [triggers](https://m2x.att.com/developer/documentation/v2/device#List-Triggers)
+* [update](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Details)
+* [updateLocation](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Location)
+* [updateStream](https://m2x.att.com/developer/documentation/v2/device#Create-Update-Data-Stream)
+* [updateStreams](https://m2x.att.com/developer/documentation/v2/device#Create-Update-Data-Stream)
+* [updateTrigger](https://m2x.att.com/developer/documentation/v2/device#Update-Trigger)
+* [view](https://m2x.att.com/developer/documentation/v2/device#View-Device-Details)
 
 ## License
 
