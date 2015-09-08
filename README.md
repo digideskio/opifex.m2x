@@ -1,6 +1,6 @@
 # opifex.m2x
 
-This library provides an [opifex](https://github.com/WoTio/opifex) adapter integrating [AT&T M2X](https://m2x.att.com/) with the [wot.io](http://wot.io) operating environment (OE). As an adapter component, it requires a deployed wot.io OE to run as designed. [Contact wot.io](http://wot.io/about-wot-io/contact-us/) for more information.
+This library provides an [opifex](https://github.com/wotio/opifex) adapter integrating [AT&T M2X](https://m2x.att.com/) with the [wot.io](http://wot.io) operating environment (OE). As an adapter component, it requires a deployed wot.io OE to run as designed. [Contact wot.io](http://wot.io/about-wot-io/contact-us/) for more information.
 
 wot.io is an IoT data service exchange<sup>TM</sup> for connected devices and data that lets current and future players in the IoT ecosystem--app creators, system integrators, analytics providers, and hardware companies--bring together applications and devices on any standard or connectivity, instantly and intuitively.
 

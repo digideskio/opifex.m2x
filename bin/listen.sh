@@ -1,6 +1,6 @@
 #!/bin/sh
 # Usage: listen.sh
-# Assumes the opifex package (http://github.com/WoTio/opifex) has been installed and 
+# Assumes the opifex package (http://github.com/wotio/opifex) has been installed and 
 # the contents of its bin/ directory are in your PATH
 
 # TODO: CHANGE THESE TO THE APPROPRIATE VALUES
