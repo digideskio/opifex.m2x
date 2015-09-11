@@ -14,9 +14,15 @@ To install, simply use the node package manager in the usual fashion:
 
 ## Usage
 
-As with all opifex adapters, the `opifex.m2x` adapter is loaded dynamically by an `opifex` process that binds to a specific AMQP path. The `opifex` command takes the URI of an AMQP path to listen on and the adapter name as arguments:
+As with all opifex adapters, the `opifex.m2x` adapter is loaded dynamically by an `opifex` process that binds to specific AMQP paths.
+The `opifex` command takes the URI of an AMQP path to listen on, the URI of an AMQP path to publish to, and the adapter name as arguments.
+The path to listen on may be a resource (queue) or an explicit binding (`<exchange>/<queue>/<pattern>`):
 
-	opifex 'amqp://<user>:<password>@<host>:<port>/<domain>/<exchange>/<key>/<queue>[/<dest-key>[/<dest-queue>]]' m2x
+	opifex 'amqp://<user>:<password>@<host>:<port>/<domain>/<queue>' 'amqp://<user>:<password>@<host>:<port>/<domain>/<exchange>/<key>' m2x
+	OR
+	opifex 'amqp://<user>:<password>@<host>:<port>/<domain>/<exchange>/<queue>/<pattern>' 'amqp://<user>:<password>@<host>:<port>/<domain>/<exchange>/<key>' m2x
+
+Opifex may also be configured via environment variables. See opifex/README.md.
 
 ## Messages
 

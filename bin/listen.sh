@@ -6,14 +6,18 @@
 # TODO: CHANGE THESE TO THE APPROPRIATE VALUES
 USERNAME=test
 PASSWORD=test
-AMQP_HOST=bus00.beta.wot.io
+AMQP_HOST=localhost
 AMQP_PORT=5672
 VHOST=wot
-EXCHANGE=test
-KEY=test
-QUEUE=test
+EXCHANGE=console
+KEY=m2x
+QUEUE=m2x
+OPIFEX=node_modules/opifex/bin/opifex
+export LOG_LEVEL=debug
+export M2X_API_KEY=aacabbe65da2f5fa195040cbc3275531
+export M2X_API_WHITELIST="list,create,updateStream,deleteDevice,setStreamValue,streams,postMultiple"
 
-CMD="opifex \"amqp://$USERNAME:$PASSWORD@$AMQP_HOST:$AMQP_PORT/$VHOST/$EXCHANGE/$KEY/$QUEUE\" m2x"
+CMD="$OPIFEX amqp://$USERNAME:$PASSWORD@$AMQP_HOST:$AMQP_PORT/$VHOST/$QUEUE amqp://$USERNAME:$PASSWORD@$AMQP_HOST:$AMQP_PORT/$VHOST/$EXCHANGE/$KEY m2x"
 echo Listening on AMQP...
 echo $CMD
 $CMD
