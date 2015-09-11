@@ -1,6 +1,6 @@
 {
   "name": "opifex.m2x",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "An Opifex adapter for m2x.",
   "main": "lib/m2x.coffee",
   "homepage": "http://wot.io",
